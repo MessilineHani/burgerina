@@ -42,12 +42,49 @@ body{
     font-family: "Caveat", sans-serif;
     color: #b68958;
 }
+.main-container .navbar .list{
+    width: fit-content;
+    margin: auto  0;
+}
+.main-container .navbar .list ul{
+    list-style: none;
+    text-transform: uppercase;
+    font-family: "Open sans",sans-serif;
+    font-size: 17px;
+}
+.main-container .navbar .list ul li{
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+}
+.main-container .navbar .list ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: #b68958;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    border-radius: 40px;
+    transition: all .3s ease-out;
+}
+.main-container .navbar .list ul li:nth-child(2)::after{
+    width: 80%;
+}
+.main-container .navbar .list ul li:hover::after{
+    width: 80%;
+}
+.main-container .navbar .list ul li a{
+    color: #b68958;
+    text-decoration: none;
+}
+/*
 .main-container .navbar img[alt="bars"]{
     height: 40%;
     cursor: pointer;
     margin: auto 0  ;
     filter: invert(59%) sepia(69%) saturate(281%) hue-rotate(351deg) brightness(85%) contrast(88%);
-}
+}*/
 .main-container .burger-menu{
     width: 75%;
     max-width: 800px;
