@@ -112,7 +112,7 @@ body{
     width: 80%;
 }
 .main-container .burger-menu .products{
-    width: 85%;
+    width: 90%;
     height: 90%;
     display: grid;
     grid-template-columns:1fr;
