@@ -223,6 +223,6 @@ body{
         font-size: 45px;
     }
     .main-container .burger-menu .products .burger div.info{
-        width: 60%;
+        width: 100%;
     }
 }
