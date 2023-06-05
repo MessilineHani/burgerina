@@ -45,7 +45,6 @@ menubar.addEventListener("click", () => {
         navBarItemsContent[i].style.color = "#fff";
         navBarItemsContent[i].style.textAlign = "center";
       }
-      console.log("it's working");
     } else {
       PhoneNavigationBar.style.display = "none";
       originalNavBar.appendChild(navBar);
@@ -113,3 +112,7 @@ menubar.addEventListener("click", () => {
 
   window.addEventListener("resize", updateNavigationBar);
 });
+const buyButton = document.querySelectorAll("#buy-button");
+buyButton.addEventListener("click", () =>{
+  window.location.href = "https://messilinehani.github.io/order_confermation/order_confermation.html"
+})
