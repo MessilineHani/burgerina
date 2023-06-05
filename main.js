@@ -113,6 +113,11 @@ menubar.addEventListener("click", () => {
   window.addEventListener("resize", updateNavigationBar);
 });
 const buyButton = document.querySelectorAll("#buy-button");
-buyButton.addEventListener("click", () =>{
-  window.location.href = "https://messilinehani.github.io/order_confermation/order_confermation.html"
-})
+/* order confermation */
+function tpUserToConfermation(){
+  for(let i = 0; i <= buyButton.length; i++){
+    buyButton[i].addEventListener("click", () =>{
+      window.location.href = "https://messilinehani.github.io/burgerina/order_confermation/order_confermation.html";
+
+})}}  
+  tpUserToConfermation()
