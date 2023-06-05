@@ -54,7 +54,7 @@ menubar.addEventListener("click", () => {
   }
 
   function updateOriginalNavbarStyling() {
-    logo.style.height = "100%";
+    logo.style.height = "80%";
     logo.style.margin = "auto 0";
     logo.style.display = "flex";
     logo.style.justifyContent = "center";
@@ -64,7 +64,7 @@ menubar.addEventListener("click", () => {
 
     const logoSpan = logo.querySelector("span");
     logoSpan.style.margin = "auto 0 auto 10px";
-    logoSpan.style.fontSize = "27px";
+    logoSpan.style.fontSize = "22px";
     logoSpan.style.letterSpacing = "1.2px";
     logoSpan.style.fontFamily = "Caveat, sans-serif";
     logoSpan.style.color = "#b68958";
