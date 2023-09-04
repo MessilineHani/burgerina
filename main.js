@@ -114,10 +114,8 @@ menubar.addEventListener("click", () => {
 });
 const buyButton = document.querySelectorAll("#buy-button");
 /* order confermation */
-function tpUserToConfermation(){
-  for(let i = 0; i <= buyButton.length; i++){
-    buyButton[i].addEventListener("click", () =>{
-      window.location.href = "https://messilinehani.github.io/burgerina/order_confermation/order_confermation.html";
-
-})}}  
-  tpUserToConfermation()
+buyButton.forEach(el =>{
+  el.onclick=()=>{
+    window.alert("Order set sucsessfuly");
+  }
+})
