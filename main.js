@@ -1,9 +1,11 @@
 const logo = document.getElementById("logo");
 const originalNavBar = document.querySelector(".navbar");
 const menubar = document.getElementById("bars-button");
+/**/
 logo.onclick = () => {
   window.location.href = "https://messilinehani.github.io/burgerina/";
 };
+/**/
 menubar.addEventListener("click", () => {
   let PhoneNavigationBar = document.createElement("div");
   document.body.appendChild(PhoneNavigationBar);
@@ -116,6 +118,6 @@ const buyButton = document.querySelectorAll("#buy-button");
 /* order confermation */
 buyButton.forEach(el =>{
   el.onclick=()=>{
-    window.alert("Order set sucsessfuly");
+    window.alert("Order sent sucsessfuly");
   }
 })
